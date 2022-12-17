@@ -25,8 +25,8 @@ def get_filters():
 
     # get user input for month (all, january, february, ... , june)
     while True:
-        month_name = input('please select one of these month to filter by. (all, january, february, march, april, may, june)').lower()
-        if month_name in ['all', 'january', 'february', 'march', 'april', 'may', 'june']:
+        month_name = input('please select one of these month to filter by. (all, february, march, april, may, june)').lower()
+        if month_name in ['all', 'february', 'march', 'april', 'may', 'june']:
             break
         else:
             print('sorry, you have entered a wrong month name')
@@ -176,11 +176,11 @@ def user_stats(df):
 def moredata(df):
     i = 0
     while True:
-        fivedata = input('Would you like to see more raw data? Enter yes or no please \n')
-        if fivedata == 'yes':
-            print(df.iloc[i: i+5])
-            i += 5
-        elif fivedata =='no':
+        raw_data = input('Would you like to see more raw data? Enter yes or no please \n')
+        if raw_data == 'yes':
+            print(df.iloc[i: i+6])
+            i += 6
+        elif raw_data =='no':
             break
 
         else:
