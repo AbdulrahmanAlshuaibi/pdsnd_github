@@ -178,8 +178,8 @@ def moredata(df):
     while True:
         raw_data = input('Would you like to see more raw data? Enter yes or no please \n')
         if raw_data == 'yes':
-            print(df.iloc[i: i+5])
-            i += 5
+            print(df.iloc[i: i+6])
+            i += 6
         elif raw_data =='no':
             break
 
