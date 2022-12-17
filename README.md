@@ -15,5 +15,5 @@ washington.csv
 new_york_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Here is a link that helped me in this project
+https://stackoverflow.com/questions/849308/how-can-i-pull-push-from-multiple-remote-locations#:~:text=Add%20remotes%20using%20git%20remote,URL%20to%20the%20existing%20remote.&text=You%20can%20cross-check%20added,remotes%20using%20git%20remote%20-v%20.
