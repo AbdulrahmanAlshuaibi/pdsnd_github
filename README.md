@@ -2,9 +2,9 @@
 
 ### Date created
 18 / 12 / 2022 
-12:48 PM
+1:13 PM
 ### Project Title
-Bykeshare Git Project
+Changing Bykeshare project using Git
 ### Description
 This project is about using GitBash to make changes to my previous Python project
 ### Files used
